@@ -4,7 +4,7 @@
   "siteName": "Answers - Basic Template",
   "repoConfig": {
     "targetRepoName": "basic-template-answers-site-${{businessId}}.com",
-    "templateRepo": "https://github.com/yext-pages/answers-template-basic-free-trial-solution"
+    "templateRepo": "https://github.com/timnolet/answers-basic-austria"
   },
   "publishingConfig": {
     "pinnedStagingBranchName": "refs/heads/master",
