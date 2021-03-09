@@ -1,0 +1,22 @@
+{
+  "$id": "FAQ3",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "de",
+  "content": {
+    "c_activeInAnswers": "YES",
+    "c_primaryCTA": {
+      "label": "Upgrade Your Account",
+      "link": "https://www.yext.com/about/contact/sales/",
+      "linkType": "URL"
+    },
+    "c_secondaryCTA": {
+      "label": "See Customer Stories",
+      "link": "https://www.yext.com/answers/?query\u003danswers+case+studies\u0026referrerPageUrl\u003d\u0026tabOrder\u003dindex.html%2Cpromotions%2Cproducts%2Ccase_studies%2Cfaqs%2Cevents%2Ccoronavirus%2Cwebinars%2Cpublications%2Cknowledge_center%2Czendesk%2Csupport%2Capp_directory_partners%2Cindustries%2Cjobs%2Cleadership%2Coffices%2Cpackages%2Cpublishers\u0026Facets.filterbox.filter0\u003d%5B%22Answers%22%5D\u0026Facets.filterbox.filter1\u003d%5B%5D\u0026verticalUrl\u003dcase_studies.html",
+      "linkType": "URL"
+    },
+    "yext/answer": "Brands that add Yext Answers to their websites achieve value in three ways:\n\n1. **They boost conversion:** Putting direct answers and calls\\-to\\-action at consumers\u0027 fingertips, allows brands to meet them at their peak moments of intent.\n2. **They reduce support costs:** Answers helps consumers find information quickly and easily — without having to contact a support center or chatbot.\n3. **They gain a source of new customer intelligence:** Search Analytics catalogs each search query and its response to show brands where they might be missing opportunities with their customers.",
+    "yext/name": "What value can Yext Answers drive for my brand?"
+  },
+  "entityType": "yext/faq",
+  "labels": []
+}

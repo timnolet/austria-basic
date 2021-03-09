@@ -1,0 +1,28 @@
+{
+  "$id": "healthcareProfessional",
+  "$schema": "https://schema.yext.com/config/km/entity-type-extension/v1",
+  "enabled": false,
+  "entityType": "yext/healthcareProfessional",
+  "field": [
+    {
+      "id": "c_activeInAnswers",
+      "required": false
+    },
+    {
+      "id": "c_answersSpecialty",
+      "required": false
+    },
+    {
+      "id": "c_associatedLocations",
+      "required": false
+    },
+    {
+      "id": "c_primaryCTA",
+      "required": false
+    },
+    {
+      "id": "c_secondaryCTA",
+      "required": false
+    }
+  ]
+}

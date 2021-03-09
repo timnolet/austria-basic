@@ -1,0 +1,30 @@
+{
+  "$id": "c_products-title-clicks",
+  "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
+  "conversionName": "Products - Title Clicks",
+  "conversionType": "OTHER",
+  "conversionValueType": "SAME",
+  "conversionValueAmount": 50.0,
+  "conversionTerm": {
+    "startDate": "2020-08-27"
+  },
+  "conversionTrigger": {
+    "clickTriggers": [
+      {
+        "clickType": "TITLE",
+        "entityFilter": {
+          "entityTypeIn": [
+            "yext/product"
+          ]
+        },
+        "media": [
+          {
+            "mediumType": "ALL_ANSWERS_EXPERIENCES"
+          }
+        ]
+      }
+    ],
+    "completionRate": 50.0
+  },
+  "enabled": true
+}

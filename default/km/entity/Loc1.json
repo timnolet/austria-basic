@@ -1,0 +1,101 @@
+{
+  "$id": "Location2",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "de",
+  "content": {
+    "c_activeInAnswers": "YES",
+    "yext/address": {
+      "city": "Mödling",
+      "countryCode": "AT",
+      "line1": "Guntramsdorfer Str. 105",
+      "postalCode": "2340"
+    },
+    "yext/addressHidden": false,
+    "yext/description": "HEROLD ist der Spezialist für Online-Medien und Marketing-Dienstleistungen und bringt unter dem Motto „HEROLD bringt´s zamm“ Anbieter mit potenziellen Kunden zusammen.",
+    "yext/hours": {
+      "friday": {
+        "isClosed": false,
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "monday": {
+        "isClosed": false,
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": true
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "isClosed": false,
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "isClosed": false,
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "isClosed": false,
+        "openIntervals": [
+          {
+            "end": "16:00",
+            "start": "08:00"
+          }
+        ]
+      }
+    },
+    "yext/mainPhone": "+4322364010",
+    "yext/name": "HEROLD",
+    "yext/photoGallery": [
+      {
+        "image": {
+          "height": 627,
+          "thumbnails": [
+            {
+              "height": 323,
+              "url": "https://a.mktgcdn.com/p-sandbox/pB5QNPUR418_R5h-EBcj5L1pqqU97rLoOE84bkbHh6E/619x323.jpg",
+              "width": 619
+            },
+            {
+              "height": 313,
+              "url": "https://a.mktgcdn.com/p-sandbox/pB5QNPUR418_R5h-EBcj5L1pqqU97rLoOE84bkbHh6E/600x313.jpg",
+              "width": 600
+            },
+            {
+              "height": 102,
+              "url": "https://a.mktgcdn.com/p-sandbox/pB5QNPUR418_R5h-EBcj5L1pqqU97rLoOE84bkbHh6E/196x102.jpg",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p-sandbox/pB5QNPUR418_R5h-EBcj5L1pqqU97rLoOE84bkbHh6E/1200x627.jpg",
+          "width": 1200
+        }
+      }
+    ],
+    "yext/timezone": "Europe/Vienna"
+  },
+  "entityType": "yext/location",
+  "folder": "yext/root",
+  "labels": []
+}

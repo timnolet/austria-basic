@@ -1,0 +1,146 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "answers-starter",
+  "name": "Answers",
+  "supportedLocales": ["DE"],
+  "countryRestrictions": ["AT"],
+  "verticals": {
+    "faqs": {
+      "entityTypes": [
+        "faq"
+      ],
+      "facetOrder": [],
+      "name": "FAQs",
+      "savedSearchId": "40233348",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "name": {
+          "semanticTextSearch": true
+        },
+        "keywords": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "links": {
+      "apiKey": "REPLACE_API_KEY",
+      "cx": "REPLACE_CX_KEY",
+      "name": "Links",
+      "siteRestricted": false,
+      "source": "GOOGLE_CSE",
+      "useSynonyms": "ALL_SYNONYMS"
+    },
+    "locations": {
+      "entityTypes": [
+        "location"
+      ],
+      "facetOrder": [],
+      "name": "Locations",
+      "savedSearchId": "40238747",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        },
+        "keywords": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "products": {
+      "entityTypes": [
+        "product"
+      ],
+      "name": "Products",
+      "savedSearchId": "40244146",
+      "searchableFields": {
+        "brand": {
+          "facet": true,
+          "nlpFilter": true
+        },
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_productCategory": {
+          "facet": true,
+          "nlpFilter": true
+        },
+        "color": {
+          "facet": true,
+          "nlpFilter": true
+        },
+        "keywords": {
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        },
+        "parentProduct.name": {
+          "textSearch": true
+        },
+        "salesChannel": {
+          "facet": true
+        },
+        "size": {
+          "facet": true,
+          "nlpFilter": true
+        },
+        "stockStatus": {
+          "facet": true,
+          "nlpFilter": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    }
+  },
+  "autocomplete": {
+    "disablePopularQueries": false,
+    "hardcodedPrompts": [
+      "Locations near me",
+      "FAQs",
+      "Products"
+    ]
+  },
+  "synonyms": {
+    "oneWay": [],
+    "synonymSet": [
+      [
+        "location",
+        "office",
+        "offices",
+        "restaurant",
+        "restaurants",
+        "store",
+        "stores",
+        "place",
+        "facility"
+      ],
+      [
+        "faq",
+        "question",
+        "frequently asked questions"
+      ],
+      [
+        "product",
+        "buy",
+        "offer",
+        "shop"
+      ]
+    ]
+  },
+  "localizations": {},
+  "additionalStopWords": []
+}

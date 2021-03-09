@@ -1,0 +1,30 @@
+{
+  "$id": "c_faq-expands",
+  "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
+  "conversionName": "FAQ - Expands",
+  "conversionType": "COST_SAVING_CUSTOMER_SUPPORT",
+  "conversionValueType": "SAME",
+  "conversionValueAmount": 5.0,
+  "conversionTerm": {
+    "startDate": "2020-08-27"
+  },
+  "conversionTrigger": {
+    "clickTriggers": [
+      {
+        "clickType": "ROW_EXPAND",
+        "entityFilter": {
+          "entityTypeIn": [
+            "yext/faq"
+          ]
+        },
+        "media": [
+          {
+            "mediumType": "ALL_ANSWERS_EXPERIENCES"
+          }
+        ]
+      }
+    ],
+    "completionRate": 20.0
+  },
+  "enabled": true
+}

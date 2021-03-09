@@ -1,0 +1,34 @@
+{
+    "$id": "64032140",
+    "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+    "name": "Pages - FAQs",
+    "filter": {
+      "entityField": [
+        {
+          "fieldId": "c_activeInAnswers",
+          "filterOption": {
+            "choice": [
+              "NO"
+            ],
+            "type": "IS_NOT"
+          }
+        }
+      ],
+      "entityType": [
+        {
+          "entityTypeId": [
+            "yext/faq"
+          ],
+          "type": "IS"
+        }
+      ],
+      "fieldsWithData": [
+        {
+          "fieldId": [
+            "yext/answer"
+          ],
+          "type": "ANY"
+        }
+      ]
+    }
+  }

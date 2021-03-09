@@ -1,0 +1,36 @@
+{
+  "$id": "Product-3",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "de",
+  "content": {
+    "c_activeInAnswers": "YES",
+    "c_primaryCTA": {
+      "label": "Buy Now",
+      "link": "https://www.yext.com",
+      "linkType": "URL"
+    },
+    "c_productCategory": [
+      "CATEGORY_C"
+    ],
+    "yext/color": "Red",
+    "yext/landingPageUrl": "https://www.yext.com",
+    "yext/name": "Product 3",
+    "yext/photoGallery": [
+      {
+        "image": {
+          "height": 244,
+          "sourceUrl": "http://a.mktgcdn.com/p/w6ooPj-HqeAtoJNRrll9zxzp7VfGRDpwGlejK9iSzOU/196x244.jpg",
+          "url": "https://a.mktgcdn.com/p/w6ooPj-HqeAtoJNRrll9zxzp7VfGRDpwGlejK9iSzOU/196x244.jpg",
+          "width": 196
+        }
+      }
+    ],
+    "yext/price": {
+      "currencyCode": "USD",
+      "value": "30"
+    },
+    "yext/richTextDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "entityType": "yext/product",
+  "labels": []
+}

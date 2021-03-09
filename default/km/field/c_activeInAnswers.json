@@ -1,0 +1,22 @@
+{
+  "$id": "c_activeInAnswers",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Active in Answers",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "optionType": {
+      "option": [
+        {
+          "displayName": "Yes",
+          "textValue": "YES"
+        },
+        {
+          "displayName": "No",
+          "textValue": "NO"
+        }
+      ]
+    }
+  },
+  "typeId": "yext/option"
+}

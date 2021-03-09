@@ -1,0 +1,24 @@
+{
+  "$id": "job",
+  "$schema": "https://schema.yext.com/config/km/entity-type-extension/v1",
+  "enabled": true,
+  "entityType": "yext/job",
+  "field": [
+    {
+      "id": "c_activeInAnswers",
+      "required": false
+    },
+    {
+      "id": "c_department",
+      "required": false
+    },
+    {
+      "id": "c_primaryCTA",
+      "required": false
+    },
+    {
+      "id": "c_secondaryCTA",
+      "required": false
+    }
+  ]
+}

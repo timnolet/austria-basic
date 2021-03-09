@@ -1,0 +1,30 @@
+{
+  "$id": "c_locations-title-clicks",
+  "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
+  "conversionName": "Locations - Title Clicks",
+  "conversionType": "LEAD",
+  "conversionValueType": "SAME",
+  "conversionValueAmount": 5.0,
+  "conversionTerm": {
+    "startDate": "2020-08-27"
+  },
+  "conversionTrigger": {
+    "clickTriggers": [
+      {
+        "clickType": "TITLE",
+        "entityFilter": {
+          "entityTypeIn": [
+            "yext/location"
+          ]
+        },
+        "media": [
+          {
+            "mediumType": "ALL_ANSWERS_EXPERIENCES"
+          }
+        ]
+      }
+    ],
+    "completionRate": 20.0
+  },
+  "enabled": true
+}

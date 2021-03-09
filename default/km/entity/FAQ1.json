@@ -1,0 +1,17 @@
+{
+  "$id": "FAQ1",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "de",
+  "content": {
+    "c_activeInAnswers": "YES",
+    "c_primaryCTA": {
+      "label": "Visit Page",
+      "link": "https://www.yext.com",
+      "linkType": "URL"
+    },
+    "yext/answer": "Search has seen a massive paradigm shift over the last two decades. People don\u0027t just type in disparate keywords anymore — they ask very specific questions. In return they expect — and depend on — accurate, official answers to help them make important decisions in their lives. Wrong answers aren\u0027t an option.\n\nThat\u0027s where Yext comes in. **Our mission is to help businesses and organizations around the world deliver official answers everywhere people search.**\n\nThe mission is powered by the [Yext Search Experience Cloud platform](https://www.yext.com/products/search-experience-cloud/), which puts you in control of your facts online and provides accurate, up\\-to\\-date, official answers to consumer questions across the entire search ecosystem. Starting on your own website, then extending across search engines, voice assistants, maps, apps, and chatbots, Yext helps you safeguard against misinformation and become the ultimate source of truth online.\n\nYext\u0027s core products include:\n\n* Knowledge Graph\n* Answers\n* Pages\n* Listings\n* Reviews\n* Analytics\n\n*This sample FAQ includes examples of rich\\-text formatting so you know what it will look like on your search experience.*",
+    "yext/name": "What is Yext?"
+  },
+  "entityType": "yext/faq",
+  "labels": []
+}

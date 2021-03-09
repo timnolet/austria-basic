@@ -1,0 +1,20 @@
+{
+  "$id": "c_photo",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Photo",
+  "description": "Stores the thumbnail image for Answers",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "imageType": {
+      "isSimpleImage": true,
+      "minSize": {
+        "width": 0,
+        "height": 0
+      },
+      "unconstrainedAspectRatioAllowed": true,
+      "noAllowedAspectRatios": true
+    }
+  },
+  "typeId": "yext/image"
+}

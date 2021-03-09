@@ -1,0 +1,692 @@
+{
+    "$id": "imprint-briskly-yahoo-c6c92",
+    "$schema": "https://schema.yext.com/config/pages/page-builder-template/v1",
+    "PageSetType": "TEMPLATE",
+    "Name": "FAQ Template",
+    "EntityTypeName": "faq",
+    "PageSetConfig": {
+      "ContentMapping": {
+        "ModuleMappings": [
+          {
+            "ContentMapEntries": [
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "SelectedField": [
+                  "logo"
+                ],
+                "Sink": "logo"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "logoUrl"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link1Text",
+                "StringValue": "Header Link"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link1Url",
+                "StringValue": "#"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link2Text",
+                "StringValue": "Header Link"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link2Url",
+                "StringValue": "#"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link3Text",
+                "StringValue": "Header Link"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link3Url",
+                "StringValue": "#"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link4Text",
+                "StringValue": "Header Link"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link4Url",
+                "StringValue": "#"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link5Text",
+                "StringValue": "Header Link"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link5Url",
+                "StringValue": "#"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link6Text",
+                "StringValue": "Link to Finder"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link6Url",
+                "StringValue": "#"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "answersExperience",
+                "StringValue": "answers",
+                "SubparameterContentMapEntries": [
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "CONSTANT",
+                    "Sink": "configurationLabel",
+                    "StringValue": "STAGING"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "Sink": "searchResultsPageUrl",
+                    "StringValue": " "
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "Sink": "sdkVersion",
+                    "StringValue": "1"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "CONSTANT",
+                    "Sink": "placeholderText",
+                    "StringValue": "Search for FAQs..."
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "CONSTANT",
+                    "Sink": "autocompletePromptHeading",
+                    "StringValue": "You can ask us:"
+                  }
+                ]
+              }
+            ],
+            "DefaultScss": ".module-navbar {\n  padding: 0;\n}\n\n.header {\n  display: flex;\n  align-items: center;\n  width: 100%;\n\n  @include media-breakpoint-up(md) {\n    width: auto;\n  }\n}\n\n.logo-image {\n  object-fit: contain;\n  height: 100%;\n  max-height: 26px;\n\n  @include media-breakpoint-up(md) {\n    max-height: 45px;\n  }\n\n  @include media-breakpoint-up(lg) {\n    max-height: 44px;\n  }\n}\n\n.navbar {\n  background-color: $gray-100;\n  @extend .navbar-light;\n\n  @include media-breakpoint-up(md) {\n    height: 70px;\n    padding-left: 0;\n    padding-right: 0;\n  }\n\n  \u0026-brand {\n    padding: 0;\n  }\n\n  \u0026-nav {\n    padding-left: 0;\n    padding-right: 0;\n    padding-top: 1rem;\n    width: 100%;\n\n    @include media-breakpoint-up(md) {\n      align-items: center;\n      padding-top: 0;\n    }\n  }\n\n  \u0026-toggler {\n    border: 0;\n    padding: 0;\n    margin-left: auto;\n  }\n}\n\n.links-div {\n  display: flex;\n  flex-direction: column;\n  order: 2;\n  padding-left: 0;\n  padding-right: 0;\n\n  @include media-breakpoint-up(md) {\n    flex-direction: row;\n    order: 0;\n\n    .nav-item:first-child() {\n      padding-left: 0;\n    }\n\n    .nav-item {\n      align-self: center;\n    }\n  }\n}\n\n.answers-div {\n  padding-left: 0;\n  padding-right: 0;\n  padding-bottom: .5rem;\n  margin-left: auto;\n\n  @include media-breakpoint-up(md) {\n    padding-bottom: 0;\n  }\n}\n\n.yxt-SearchBar-form {\n  height: 44px;\n}\n\n.yxt-SearchBar {\n  height: 44px;\n\n  \u0026-input {\n    padding-right: var(--yxt-base-spacing)/2;\n  }\n}\n",
+            "Js": "",
+            "ListParamEntries": [],
+            "ModuleId": "9ulBNhcOuv",
+            "Scss": ".module-navbar {\n  padding: 0;\n}\n\n.header {\n  display: flex;\n  align-items: center;\n  width: 100%;\n\n  @include media-breakpoint-up(md) {\n    width: auto;\n  }\n}\n\n.logo-image {\n  object-fit: contain;\n  height: 100%;\n  max-height: 26px;\n\n  @include media-breakpoint-up(md) {\n    max-height: 45px;\n  }\n\n  @include media-breakpoint-up(lg) {\n    max-height: 44px;\n  }\n}\n\n.navbar {\n  background-color: $gray-100;\n  @extend .navbar-light;\n\n  @include media-breakpoint-up(md) {\n    height: 70px;\n    padding-left: 0;\n    padding-right: 0;\n  }\n\n  \u0026-brand {\n    padding: 0;\n  }\n\n  \u0026-nav {\n    padding-left: 0;\n    padding-right: 0;\n    padding-top: 1rem;\n    width: 100%;\n\n    @include media-breakpoint-up(md) {\n      align-items: center;\n      padding-top: 0;\n    }\n  }\n\n  \u0026-toggler {\n    border: 0;\n    padding: 0;\n    margin-left: auto;\n  }\n}\n\n.links-div {\n  display: flex;\n  flex-direction: column;\n  order: 2;\n  padding-left: 0;\n  padding-right: 0;\n\n  @include media-breakpoint-up(md) {\n    flex-direction: row;\n    order: 0;\n\n    .nav-item:first-child() {\n      padding-left: 0;\n    }\n\n    .nav-item {\n      align-self: center;\n    }\n  }\n}\n\n.answers-div {\n  padding-left: 0;\n  padding-right: 0;\n  padding-bottom: .5rem;\n  margin-left: auto;\n\n  @include media-breakpoint-up(md) {\n    padding-bottom: 0;\n  }\n}\n\n.yxt-SearchBar-form {\n  height: 44px;\n}\n\n.yxt-SearchBar {\n  height: 44px;\n\n  \u0026-input {\n    padding-right: var(--yxt-base-spacing)/2;\n  }\n}\n"
+          },
+          {
+            "ContentMapEntries": [
+              {
+                "ExternalEntityId": "",
+                "InputType": "CONSTANT",
+                "Sink": "announcementText",
+                "StringValue": "View All FAQs"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "announcementUrl",
+                "StringValue": "#"
+              }
+            ],
+            "DefaultScss": ".module-announcement-bar {\n\tpadding: 0;\n}\n\n.module-announcement-bar a {\n\tflex-grow: 1;\n\ttext-align: center;\n\tpadding: 7px 5px;\n}\n\n// Override the background color below\n.module-announcement-bar .btn {\n    // background-color: gray;\n\tborder-radius: 0px;\n\tword-wrap: break-word;\n\twhite-space: normal;\n\tborder: 0px;\n\tmargin: 0px;\n\tbox-shadow: none;\n}",
+            "Js": "",
+            "ListParamEntries": [],
+            "ModuleId": "H9yYNac89R",
+            "Scss": ".module-announcement-bar {\n\tpadding: 0;\n}\n\n.module-announcement-bar a {\n\tflex-grow: 1;\n\ttext-align: center;\n\tpadding: 7px 5px;\n}\n\n// Override the background color below\n.module-announcement-bar .btn {\n    // background-color: gray;\n\tborder-radius: 0px;\n\tword-wrap: break-word;\n\twhite-space: normal;\n\tborder: 0px;\n\tmargin: 0px;\n\tbox-shadow: none;\n}"
+          },
+          {
+            "ContentMapEntries": [
+              {
+                "ExternalEntityId": "",
+                "InputType": "CONSTANT",
+                "Sink": "headline",
+                "StringValue": ""
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "SelectedField": [
+                  "name"
+                ],
+                "Sink": "questionText"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "SelectedField": [
+                  "answer"
+                ],
+                "Sink": "answerText"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "CONSTANT",
+                "Sink": "linkText",
+                "StringValue": "Learn More"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "linkURL",
+                "StringValue": "#"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "image"
+              }
+            ],
+            "DefaultScss": "padding: 2rem 0;\n$spacer: 1rem;\n\n.left-column {\n  margin-bottom: $spacer;\n}\n\n.headline {\n  margin: 2*$spacer auto 4*$spacer;\n  text-align: center;\n}\n\n.questionText {\n  margin-bottom: $spacer;\n}\n\n.answerText {\n  margin-bottom: $spacer;\n}\n\n.linkURL {}\n\n.linkText {\n  font-size: 16px;\n  margin-bottom: 3rem;\n}\n\n.image {\n  width: 100%;\n}\n",
+            "Js": "",
+            "ListParamEntries": [],
+            "ModuleId": "JHlB1KWbuR",
+            "Scss": "padding: 2rem 0;\n$spacer: 1rem;\n\n.left-column {\n  margin-bottom: $spacer;\n}\n\n.headline {\n  margin: 2*$spacer auto 4*$spacer;\n  text-align: center;\n}\n\n.questionText {\n  margin-bottom: $spacer;\n}\n\n.answerText {\n  margin-bottom: $spacer;\n}\n\n.linkURL {}\n\n.linkText {\n  font-size: 16px;\n  margin-bottom: 3rem;\n}\n\n.image {\n  width: 100%;\n}\n"
+          },
+          {
+            "ContentMapEntries": [
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "caption",
+                "StringValue": "© 2018 Cobalt Design System. All Rights Reserved."
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link1Text",
+                "StringValue": "Privacy"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link1Url",
+                "StringValue": "#"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link2Text",
+                "StringValue": "Terms of Service"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link2Url",
+                "StringValue": "#"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link3Text",
+                "StringValue": "Sitemap"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link3Url",
+                "StringValue": "#"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link4Text",
+                "StringValue": "Footer Link"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link4Url",
+                "StringValue": "#"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link5Text",
+                "StringValue": "Footer Link"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link5Url",
+                "StringValue": "#"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link6Text",
+                "StringValue": "Footer Link"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link6Url",
+                "StringValue": "#"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link7Text",
+                "StringValue": "Footer Link"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "link7Url",
+                "StringValue": "#"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "SelectedField": [
+                  "facebookPageUrl"
+                ],
+                "Sink": "facebook"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "youtube"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "pinterest"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "linkedin"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "SelectedField": [
+                  "twitterHandle"
+                ],
+                "Sink": "twitterHandle"
+              },
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "SelectedField": [
+                  "instagramHandle"
+                ],
+                "Sink": "instagramHandle"
+              }
+            ],
+            "DefaultScss": "$background-color: #e9ecef;\n$link-color: #212529;\n$mobile-breakpoint: 768px;\n\nbackground-color: $background-color;\npadding: 2rem 0;\n\n.footer-links {\n    display: flex;\n    justify-content: start;\n    padding-left: 0rem;\n\n    .footer-link {\n        padding: 0rem .5rem;\n        text-decoration: underline;\n        color: $link-color;\n\n        \u0026:first-child {\n            padding-left: 0px;\n        }\n\n        \u0026:hover {\n            text-decoration: none;\n        }\n    }\n}\n\n.col:empty {\n    display: none;\n}\n\n.caption-text {\n    padding-top: 1rem;\n    justify-content: start;\n}\n\n@media (max-width: $mobile-breakpoint) {\n    text-align: center;\n\n    .caption-text {\n        justify-content: center;\n    }\n\n    .footer-links {\n        flex-direction: column;\n        align-items: center;\n\n        .footer-link {\n            padding: 0.5rem 0rem;\n        }\n    }\n}\n\n.social-icon {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n    height: 45px;\n    width: 45px;\n\n    .icon-img {\n        filter: invert(1); // make it black\n    }\n}",
+            "Js": "",
+            "ListParamEntries": [],
+            "ModuleId": "H9By3K7OJR",
+            "Scss": "$background-color: #e9ecef;\n$link-color: #212529;\n$mobile-breakpoint: 768px;\n\nbackground-color: $background-color;\npadding: 2rem 0;\n\n.footer-links {\n    display: flex;\n    justify-content: start;\n    padding-left: 0rem;\n\n    .footer-link {\n        padding: 0rem .5rem;\n        text-decoration: underline;\n        color: $link-color;\n\n        \u0026:first-child {\n            padding-left: 0px;\n        }\n\n        \u0026:hover {\n            text-decoration: none;\n        }\n    }\n}\n\n.col:empty {\n    display: none;\n}\n\n.caption-text {\n    padding-top: 1rem;\n    justify-content: start;\n}\n\n@media (max-width: $mobile-breakpoint) {\n    text-align: center;\n\n    .caption-text {\n        justify-content: center;\n    }\n\n    .footer-links {\n        flex-direction: column;\n        align-items: center;\n\n        .footer-link {\n            padding: 0.5rem 0rem;\n        }\n    }\n}\n\n.social-icon {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n    height: 45px;\n    width: 45px;\n\n    .icon-img {\n        filter: invert(1); // make it black\n    }\n}"
+          },
+          {
+            "ContentMapEntries": [
+              {
+                "ExternalEntityId": "",
+                "InputType": "CONSTANT",
+                "Sink": "headline",
+                "StringValue": "Additional FAQs"
+              }
+            ],
+            "DefaultScss": "$spacer: 1rem;\n\n// Variables for description text truncation\n$lh: 22;\n$line-height: 22px;\n\n$max-height: 180px;\n$mh: 180;\n$max-num-lines: floor($mh / $lh);\n\n$max-height-tablet: 90px;\n$mht: 90;\n$max-num-lines-tablet: floor($mht / $lh);\n\n$max-height-desktop: 68px;\n$mhd: 68;\n$max-num-lines-desktop: floor($mhd / $lh);\n\n.module-container {\n  padding: ($spacer * 2) 15px;\n}\n\nul {\n  padding-inline-start: 0;\n  margin: 0 $spacer;\n}\n\n.row {\n  justify-content: center;\n}\n\n.headline {\n  font-size: 2em;\n  margin-bottom: $spacer;\n\n  @include media-breakpoint-down(sm) {\n    text-align: center;\n  }\n}\n\n.item-col {\n  margin-bottom: $spacer;\n  @include media-breakpoint-down(sm) {\n    text-align: center;\n  }\n}\n\n.section {\n  margin: $spacer $spacer 0;\n  font-size: 1em;\n  word-break: break-word;\n}\n\n.item {\n  height: 100%;\n  position: relative;\n  background-color: #f2f2f2;\n  text-align: left;\n  display: flex;\n  flex-direction: column;\n}\n\n.image {\n  object-fit: contain;\n  max-width: 100%;\n  width: 100%;\n\n  \u0026-container {\n    flex-shrink: 0;\n  }\n}\n\n.content-container {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  padding-bottom: $spacer;\n}\n\n.title {\n  font-size: 1.5em;\n  font-weight: normal;\n  word-break: break-word;\n}\n\n.subtitle {\n  font-size: 1.25em;\n  font-weight: normal;\n}\n\n.address {}\n\n.phone {}\n\n.email {}\n\n.description, .description-text {\n  max-height: $max-height;\n\n  @include media-breakpoint-up(sm) {\n    max-height: $max-height-tablet;\n  }\n\n  @include media-breakpoint-up(lg) {\n    max-height: $max-height-desktop;\n  }\n}\n\n.description-text {\n  -webkit-line-clamp: $max-num-lines;\n  display: -webkit-box;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n\n  @include media-breakpoint-up(sm) {\n    -webkit-line-clamp: $max-num-lines-tablet;\n  }\n\n  @include media-breakpoint-up(lg) {\n    -webkit-line-clamp: $max-num-lines-desktop;\n  }\n}\n\n.text-list {}\n\n.list-item {\n  margin-left: -5px;\n}\n\n.cta {\n  font-size: 1em;\n  text-decoration: none;\n\n  \u0026-container {\n    display: flex;\n    align-items: flex-end;\n    flex: 1;\n  }\n}\n",
+            "Js": "",
+            "ListParamEntries": [
+              {
+                "ContentMapEntries": [
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "Sink": "image"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "FIELD",
+                    "SelectedField": [
+                      "name"
+                    ],
+                    "Sink": "title"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "Sink": "subtitle",
+                    "StringValue": "Subtitle"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "SelectedField": [
+                      "none"
+                    ],
+                    "Sink": "address"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "SelectedField": [
+                      "none"
+                    ],
+                    "Sink": "phone"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "SelectedField": [
+                      "none"
+                    ],
+                    "Sink": "email"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "FIELD",
+                    "SelectedField": [
+                      "answer"
+                    ],
+                    "Sink": "description"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "SelectedField": [
+                      "none"
+                    ],
+                    "Sink": "textList"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "CONSTANT",
+                    "Sink": "infoLinkText",
+                    "StringValue": "See More"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "Sink": "infoLink",
+                    "StringValue": "#"
+                  }
+                ],
+                "SavedSearchSource": {
+                  "ExternalSearchId": "64032140"
+                },
+                "Sink": "items"
+              }
+            ],
+            "ModuleId": "99ULpiC4Vv",
+            "Scss": "$spacer: 1rem;\n\n// Variables for description text truncation\n$lh: 22;\n$line-height: 22px;\n\n$max-height: 180px;\n$mh: 180;\n$max-num-lines: floor($mh / $lh);\n\n$max-height-tablet: 90px;\n$mht: 90;\n$max-num-lines-tablet: floor($mht / $lh);\n\n$max-height-desktop: 68px;\n$mhd: 68;\n$max-num-lines-desktop: floor($mhd / $lh);\n\n.module-container {\n  padding: ($spacer * 2) 15px;\n}\n\nul {\n  padding-inline-start: 0;\n  margin: 0 $spacer;\n}\n\n.row {\n  justify-content: center;\n}\n\n.headline {\n  font-size: 2em;\n  margin-bottom: $spacer;\n\n  @include media-breakpoint-down(sm) {\n    text-align: center;\n  }\n}\n\n.item-col {\n  margin-bottom: $spacer;\n  @include media-breakpoint-down(sm) {\n    text-align: center;\n  }\n}\n\n.section {\n  margin: $spacer $spacer 0;\n  font-size: 1em;\n  word-break: break-word;\n}\n\n.item {\n  height: 100%;\n  position: relative;\n  background-color: #f2f2f2;\n  text-align: left;\n  display: flex;\n  flex-direction: column;\n}\n\n.image {\n  object-fit: contain;\n  max-width: 100%;\n  width: 100%;\n\n  \u0026-container {\n    flex-shrink: 0;\n  }\n}\n\n.content-container {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  padding-bottom: $spacer;\n}\n\n.title {\n  font-size: 1.5em;\n  font-weight: normal;\n  word-break: break-word;\n}\n\n.subtitle {\n  font-size: 1.25em;\n  font-weight: normal;\n}\n\n.address {}\n\n.phone {}\n\n.email {}\n\n.description, .description-text {\n  max-height: $max-height;\n\n  @include media-breakpoint-up(sm) {\n    max-height: $max-height-tablet;\n  }\n\n  @include media-breakpoint-up(lg) {\n    max-height: $max-height-desktop;\n  }\n}\n\n.description-text {\n  -webkit-line-clamp: $max-num-lines;\n  display: -webkit-box;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n\n  @include media-breakpoint-up(sm) {\n    -webkit-line-clamp: $max-num-lines-tablet;\n  }\n\n  @include media-breakpoint-up(lg) {\n    -webkit-line-clamp: $max-num-lines-desktop;\n  }\n}\n\n.text-list {}\n\n.list-item {\n  margin-left: -5px;\n}\n\n.cta {\n  font-size: 1em;\n  text-decoration: none;\n\n  \u0026-container {\n    display: flex;\n    align-items: flex-end;\n    flex: 1;\n  }\n}\n"
+          },
+          {
+            "ContentMapEntries": [
+              {
+                "ExternalEntityId": "",
+                "InputType": "",
+                "Sink": "overrideColor"
+              }
+            ],
+            "DefaultScss": ".module {\n  \u0026-divider {\n    padding: 0;\n\n    .hr {\n      width: 100%;\n      height: 1px;\n      background-color: #e5e5e5; // this is the default \u003chr\u003e color\n    }\n  }\n}\n",
+            "Js": "",
+            "ListParamEntries": [],
+            "ModuleId": "uHewBPDxIU",
+            "Scss": ".module {\n  \u0026-divider {\n    padding: 0;\n\n    .hr {\n      width: 100%;\n      height: 1px;\n      background-color: #e5e5e5; // this is the default \u003chr\u003e color\n    }\n  }\n}\n"
+          },
+          {
+            "ContentMapEntries": [
+              {
+                "ExternalEntityId": "",
+                "InputType": "CONSTANT",
+                "Sink": "headline",
+                "StringValue": "Related Content - Services / Products"
+              }
+            ],
+            "DefaultScss": "$spacer: 1rem;\n\n// Variables for description text truncation\n$lh: 22;\n$line-height: 22px;\n\n$max-height: 180px;\n$mh: 180;\n$max-num-lines: floor($mh / $lh);\n\n$max-height-tablet: 90px;\n$mht: 90;\n$max-num-lines-tablet: floor($mht / $lh);\n\n$max-height-desktop: 68px;\n$mhd: 68;\n$max-num-lines-desktop: floor($mhd / $lh);\n\n.module-container {\n  padding: ($spacer * 2) 15px;\n}\n\nul {\n  padding-inline-start: 0;\n  margin: 0 $spacer;\n}\n\n.row {\n  justify-content: center;\n}\n\n.headline {\n  font-size: 2em;\n  margin-bottom: $spacer;\n\n  @include media-breakpoint-down(sm) {\n    text-align: center;\n  }\n}\n\n.item-col {\n  margin-bottom: $spacer;\n  @include media-breakpoint-down(sm) {\n    text-align: center;\n  }\n}\n\n.section {\n  margin: $spacer $spacer 0;\n  font-size: 1em;\n  word-break: break-word;\n}\n\n.item {\n  height: 100%;\n  position: relative;\n  background-color: #f2f2f2;\n  text-align: left;\n  display: flex;\n  flex-direction: column;\n}\n\n.image {\n  object-fit: contain;\n  max-width: 100%;\n  width: 100%;\n\n  \u0026-container {\n    flex-shrink: 0;\n  }\n}\n\n.content-container {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  padding-bottom: $spacer;\n}\n\n.title {\n  font-size: 1.5em;\n  font-weight: normal;\n  word-break: break-word;\n}\n\n.subtitle {\n  font-size: 1.25em;\n  font-weight: normal;\n}\n\n.address {}\n\n.phone {}\n\n.email {}\n\n.description, .description-text {\n  max-height: $max-height;\n\n  @include media-breakpoint-up(sm) {\n    max-height: $max-height-tablet;\n  }\n\n  @include media-breakpoint-up(lg) {\n    max-height: $max-height-desktop;\n  }\n}\n\n.description-text {\n  -webkit-line-clamp: $max-num-lines;\n  display: -webkit-box;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n\n  @include media-breakpoint-up(sm) {\n    -webkit-line-clamp: $max-num-lines-tablet;\n  }\n\n  @include media-breakpoint-up(lg) {\n    -webkit-line-clamp: $max-num-lines-desktop;\n  }\n}\n\n.text-list {}\n\n.list-item {\n  margin-left: -5px;\n}\n\n.cta {\n  font-size: 1em;\n  text-decoration: none;\n\n  \u0026-container {\n    display: flex;\n    align-items: flex-end;\n    flex: 1;\n  }\n}\n",
+            "Js": "",
+            "ListParamEntries": [
+              {
+                "ContentMapEntries": [
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "Sink": "image"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "Sink": "title",
+                    "StringValue": "Title"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "Sink": "subtitle",
+                    "StringValue": "Subtitle"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "SelectedField": [
+                      "none"
+                    ],
+                    "Sink": "address"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "SelectedField": [
+                      "none"
+                    ],
+                    "Sink": "phone"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "SelectedField": [
+                      "none"
+                    ],
+                    "Sink": "email"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "Sink": "description",
+                    "StringValue": "Description Text"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "SelectedField": [
+                      "none"
+                    ],
+                    "Sink": "textList"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "Sink": "infoLinkText",
+                    "StringValue": "Link Here"
+                  },
+                  {
+                    "ExternalEntityId": "",
+                    "InputType": "",
+                    "Sink": "infoLink",
+                    "StringValue": "#"
+                  }
+                ],
+                "ListParamSource": {
+                  "AlternateExternalEntityId": "",
+                  "EntityTypeName": "location",
+                  "RelationshipField": "",
+                  "Reviews": false,
+                  "SavedSearch": ""
+                },
+                "Sink": "items"
+              }
+            ],
+            "ModuleId": "HHtYCoeXv_",
+            "Scss": "$spacer: 1rem;\n\n// Variables for description text truncation\n$lh: 22;\n$line-height: 22px;\n\n$max-height: 180px;\n$mh: 180;\n$max-num-lines: floor($mh / $lh);\n\n$max-height-tablet: 90px;\n$mht: 90;\n$max-num-lines-tablet: floor($mht / $lh);\n\n$max-height-desktop: 68px;\n$mhd: 68;\n$max-num-lines-desktop: floor($mhd / $lh);\n\n.module-container {\n  padding: ($spacer * 2) 15px;\n}\n\nul {\n  padding-inline-start: 0;\n  margin: 0 $spacer;\n}\n\n.row {\n  justify-content: center;\n}\n\n.headline {\n  font-size: 2em;\n  margin-bottom: $spacer;\n\n  @include media-breakpoint-down(sm) {\n    text-align: center;\n  }\n}\n\n.item-col {\n  margin-bottom: $spacer;\n  @include media-breakpoint-down(sm) {\n    text-align: center;\n  }\n}\n\n.section {\n  margin: $spacer $spacer 0;\n  font-size: 1em;\n  word-break: break-word;\n}\n\n.item {\n  height: 100%;\n  position: relative;\n  background-color: #f2f2f2;\n  text-align: left;\n  display: flex;\n  flex-direction: column;\n}\n\n.image {\n  object-fit: contain;\n  max-width: 100%;\n  width: 100%;\n\n  \u0026-container {\n    flex-shrink: 0;\n  }\n}\n\n.content-container {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  padding-bottom: $spacer;\n}\n\n.title {\n  font-size: 1.5em;\n  font-weight: normal;\n  word-break: break-word;\n}\n\n.subtitle {\n  font-size: 1.25em;\n  font-weight: normal;\n}\n\n.address {}\n\n.phone {}\n\n.email {}\n\n.description, .description-text {\n  max-height: $max-height;\n\n  @include media-breakpoint-up(sm) {\n    max-height: $max-height-tablet;\n  }\n\n  @include media-breakpoint-up(lg) {\n    max-height: $max-height-desktop;\n  }\n}\n\n.description-text {\n  -webkit-line-clamp: $max-num-lines;\n  display: -webkit-box;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n\n  @include media-breakpoint-up(sm) {\n    -webkit-line-clamp: $max-num-lines-tablet;\n  }\n\n  @include media-breakpoint-up(lg) {\n    -webkit-line-clamp: $max-num-lines-desktop;\n  }\n}\n\n.text-list {}\n\n.list-item {\n  margin-left: -5px;\n}\n\n.cta {\n  font-size: 1em;\n  text-decoration: none;\n\n  \u0026-container {\n    display: flex;\n    align-items: flex-end;\n    flex: 1;\n  }\n}\n"
+          }
+        ],
+        "ThemeMapping": {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "name"
+              ],
+              "Sink": "pageTitle"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "description"
+              ],
+              "Sink": "metaDescription"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "metaKeywords"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "conversionTracking",
+              "StringValue": ""
+            }
+          ],
+          "DefaultScss": "$web-font-path: \"https://fonts.googleapis.com/css?family\u003dSource+Sans+Pro:300,400,700\" !default;\r\n@import url($web-font-path);\r\n\r\n\r\n$white:    #fff !default;\r\n$gray-100: #f8f9fa !default;\r\n$gray-200: #e9ecef !default;\r\n$gray-300: #dee2e6 !default;\r\n$gray-400: #ced4da !default;\r\n$gray-500: #adb5bd !default;\r\n$gray-600: #868e96 !default;\r\n$gray-700: #495057 !default;\r\n$gray-800: #373a3c !default;\r\n$gray-900: #212529 !default;\r\n$black:    #000 !default;\r\n\r\n$blue:    #2780E3 !default;\r\n$indigo:  #6610f2 !default;\r\n$purple:  #613d7c !default;\r\n$pink:    #e83e8c !default;\r\n$red:     #FF0039 !default;\r\n$orange:  #f0ad4e !default;\r\n$yellow:  #FF7518 !default;\r\n$green:   #3FB618 !default;\r\n$teal:    #20c997 !default;\r\n$cyan:    #9954BB !default;\r\n\r\n$primary:       $blue !default;\r\n$secondary:     $gray-800 !default;\r\n$success:       $green !default;\r\n$info:          $cyan !default;\r\n$warning:       $yellow !default;\r\n$danger:        $red !default;\r\n$light:         $gray-100 !default;\r\n$dark:          $gray-800 !default;\r\n\r\n// Options\r\n\r\n$enable-rounded: false !default;\r\n\r\n// Body\r\n\r\n$body-color:    $gray-800 !default;\r\n\r\n// Fonts\r\n\r\n$font-family-sans-serif: \"Segoe UI\", \"Source Sans Pro\", Calibri, Candara, Arial, sans-serif !default;\r\n\r\n$font-size-base: 0.9375rem !default;\r\n\r\n$headings-font-weight:   300 !default;\r\n\r\n// Navbar\r\n\r\n$navbar-dark-hover-color:           rgba($white,1) !default;\r\n\r\n$navbar-light-hover-color:          rgba($black,.9) !default;\r\n\r\n// Alerts\r\n\r\n$alert-border-width:                0 !default;\r\n\r\n// Progress bars\r\n\r\n$progress-height:               0.5rem !default;\r\n\r\n@import \"bootstrap\";\r\n\r\n\r\nbody {\r\n  -webkit-font-smoothing: antialiased;\r\n}\r\n\r\n",
+          "Js": "",
+          "Scss": "$web-font-path: \"https://fonts.googleapis.com/css?family\u003dSource+Sans+Pro:300,400,700\" !default;\r\n@import url($web-font-path);\r\n\r\n\r\n$white:    #fff !default;\r\n$gray-100: #f8f9fa !default;\r\n$gray-200: #e9ecef !default;\r\n$gray-300: #dee2e6 !default;\r\n$gray-400: #ced4da !default;\r\n$gray-500: #adb5bd !default;\r\n$gray-600: #868e96 !default;\r\n$gray-700: #495057 !default;\r\n$gray-800: #373a3c !default;\r\n$gray-900: #212529 !default;\r\n$black:    #000 !default;\r\n\r\n$blue:    #2780E3 !default;\r\n$indigo:  #6610f2 !default;\r\n$purple:  #613d7c !default;\r\n$pink:    #e83e8c !default;\r\n$red:     #FF0039 !default;\r\n$orange:  #f0ad4e !default;\r\n$yellow:  #FF7518 !default;\r\n$green:   #3FB618 !default;\r\n$teal:    #20c997 !default;\r\n$cyan:    #9954BB !default;\r\n\r\n$primary:       $blue !default;\r\n$secondary:     $gray-800 !default;\r\n$success:       $green !default;\r\n$info:          $cyan !default;\r\n$warning:       $yellow !default;\r\n$danger:        $red !default;\r\n$light:         $gray-100 !default;\r\n$dark:          $gray-800 !default;\r\n\r\n// Options\r\n\r\n$enable-rounded: false !default;\r\n\r\n// Body\r\n\r\n$body-color:    $gray-800 !default;\r\n\r\n// Fonts\r\n\r\n$font-family-sans-serif: \"Segoe UI\", \"Source Sans Pro\", Calibri, Candara, Arial, sans-serif !default;\r\n\r\n$font-size-base: 0.9375rem !default;\r\n\r\n$headings-font-weight:   300 !default;\r\n\r\n// Navbar\r\n\r\n$navbar-dark-hover-color:           rgba($white,1) !default;\r\n\r\n$navbar-light-hover-color:          rgba($black,.9) !default;\r\n\r\n// Alerts\r\n\r\n$alert-border-width:                0 !default;\r\n\r\n// Progress bars\r\n\r\n$progress-height:               0.5rem !default;\r\n\r\n@import \"bootstrap\";\r\n\r\n\r\nbody {\r\n  -webkit-font-smoothing: antialiased;\r\n}\r\n\r\n"
+        }
+      },
+      "DesignParameterConfig": {
+        "BodyFont": {
+          "Alignment": "",
+          "Color": "",
+          "FontFamily": "",
+          "FontWeight": 0,
+          "LineHeight": 0,
+          "TextScale": "",
+          "TextTransform": "",
+          "Uppercase": false
+        },
+        "Buttons": {
+          "Font": {
+            "Alignment": "",
+            "Color": "",
+            "FontFamily": "",
+            "FontWeight": 0,
+            "LineHeight": 0,
+            "TextScale": "",
+            "TextTransform": "",
+            "Uppercase": false
+          },
+          "LetterSpacing": "",
+          "Padding": "",
+          "Radius": 0,
+          "Rounded": false,
+          "Uppercase": false
+        },
+        "Colors": {
+          "Background": "",
+          "Primary": "",
+          "Secondary": ""
+        },
+        "HeaderFont": {
+          "Alignment": "",
+          "Color": "",
+          "FontFamily": "",
+          "FontWeight": 0,
+          "LineHeight": 0,
+          "TextScale": "",
+          "TextTransform": "",
+          "Uppercase": false
+        },
+        "Other": {
+          "MaxWidth": 0,
+          "SectionSpacing": "",
+          "Spacer": 0
+        }
+      },
+      "FooterHtml": "",
+      "HeaderHtml": "",
+      "ModuleInstances": [
+        {
+          "DisplayNameOverride": "",
+          "Id": "9ulBNhcOuv",
+          "Module": "nav_bar",
+          "Version": 53
+        },
+        {
+          "DisplayNameOverride": "",
+          "Id": "H9yYNac89R",
+          "Module": "announcement_bar_2",
+          "Version": 20
+        },
+        {
+          "DisplayNameOverride": "",
+          "Id": "JHlB1KWbuR",
+          "Module": "individual_faq",
+          "Version": 16
+        },
+        {
+          "DisplayNameOverride": "",
+          "Id": "uHewBPDxIU",
+          "Module": "divider",
+          "Version": 15
+        },
+        {
+          "DisplayNameOverride": "",
+          "Id": "99ULpiC4Vv",
+          "Module": "item_list_i",
+          "Version": 19
+        },
+        {
+          "DisplayNameOverride": "",
+          "Id": "HHtYCoeXv_",
+          "Module": "item_list_i",
+          "Version": 19
+        },
+        {
+          "DisplayNameOverride": "",
+          "Id": "H9By3K7OJR",
+          "Module": "footer",
+          "Version": 53
+        }
+      ],
+      "Path": "",
+      "Schema": "",
+      "SinglePageConfig": {
+        "Path": ""
+      },
+      "Theme": "cosmo",
+      "ThemeVersion": 17
+    }
+  }
