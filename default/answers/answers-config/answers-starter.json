@@ -146,6 +146,10 @@
         "hauptrufnummer",
         "telefon",
         "telefonnummer"
+      ],
+      ["geschäftszeiten",
+       "öffnungszeiten",
+       "zeiten"
       ]
     ]
   },
