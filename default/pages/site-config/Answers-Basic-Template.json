@@ -4,7 +4,7 @@
   "siteName": "Answers - Basic Template",
   "repoConfig": {
     "targetRepoName": "basic-template-answers-site-${{businessId}}.com",
-    "templateRepo": "https://github.com/timnolet/answers-basic-austria"
+    "templateRepo": "https://github.com/timnolet/answers-template-austria"
   },
   "publishingConfig": {
     "pinnedStagingBranchName": "refs/heads/master",
