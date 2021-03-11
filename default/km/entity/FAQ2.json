@@ -9,8 +9,8 @@
       "link": "http://hitchhikers.yext.com/login",
       "linkType": "URL"
     },
-    "yext/answer": "Head over to [Hitchhikers](https://hitchhikers.yext.com/login), our learning and community platform to help make you an expert on Yext.\n\nWe recommend doing a few things:\n\n* Check out our [10 Steps to Getting Your Answers Experience Live guide](https://hitchhikers.yext.com/guides/answers-quick-start/) for step\\-by\\-step walkthrough of the basics\n* Earning your [Hitchhiker Badge](https://hitchhikers.yext.com/tracks/intro/) to learn a bit more about the program\n* Post in the [Community](https://hitchhikers.yext.com/community/) if you have any questions on how things work or best practices\n* Attend our weekly [Office Hours](https://events-hitchhikers.yext.com/index.html?query\u003devent\u0026SortOptions\u003d2\u0026referrerPageUrl\u003dhttps%3A%2F%2Fhitchhikers.yext.com%2F) held on Tuesdays at 11am ET\n\nHappy Hitchhiking!",
-    "yext/name": "How can I get help building my Yext Answers experience?"
+    "yext/answer": "Enter Answers2",
+    "yext/name": "Enter FAQ2"
   },
   "entityType": "yext/faq",
   "labels": []
