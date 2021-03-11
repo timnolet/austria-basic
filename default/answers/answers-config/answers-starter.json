@@ -111,9 +111,9 @@
   "autocomplete": {
     "disablePopularQueries": false,
     "hardcodedPrompts": [
-      "Locations near me",
+      "Standorte in der nähe",
       "FAQs",
-      "Products"
+      "Produkte"
     ]
   },
   "synonyms": {
@@ -128,19 +128,23 @@
         "store",
         "stores",
         "place",
-        "facility"
+        "facility",
+        "ihre",
+        "ihr"
       ],
       [
         "faq",
         "question",
         "frequently asked questions",
-        "fragen"
+        "fragen",
+        "häufig gestellte fragen"
       ],
       [
         "product",
         "buy",
         "offer",
-        "shop"
+        "shop",
+        "produkte"
       ],
       [
         "hauptrufnummer",
@@ -149,7 +153,8 @@
       ],
       ["geschäftszeiten",
        "öffnungszeiten",
-       "zeiten"
+       "zeiten",
+       "offen"
       ]
     ]
   },
