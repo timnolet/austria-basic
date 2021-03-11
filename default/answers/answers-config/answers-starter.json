@@ -133,13 +133,19 @@
       [
         "faq",
         "question",
-        "frequently asked questions"
+        "frequently asked questions",
+        "fragen"
       ],
       [
         "product",
         "buy",
         "offer",
         "shop"
+      ],
+      [
+        "hauptrufnummer",
+        "telefon",
+        "telefonnummer"
       ]
     ]
   },
