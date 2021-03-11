@@ -1,7 +1,7 @@
 {
   "$id": "answers-domain",
   "$schema": "https://schema.yext.com/config/pages/domain/v1",
-  "domainName": "answers-turtleheadtacos-${{businessId}}.landingpagessbx.yextengtest.com",
+  "domainName": "herold-${{businessId}}.landingpagessbx.yextengtest.com",
   "autoGenerateSitemap": true,
   "domainAccess": true
 }
