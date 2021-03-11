@@ -2,44 +2,38 @@
   "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
   "$id": "answers-starter",
   "name": "Answers",
-  "supportedLocales": ["DE"],
-  "countryRestrictions": ["AT"],
+  "supportedLocales": [
+    "de"
+  ],
+  "countryRestrictions": [
+    "AT"
+  ],
   "verticals": {
     "faqs": {
       "entityTypes": [
         "faq"
       ],
-      "facetOrder": [],
-      "name": "FAQs",
+      "name": "Fragen",
       "savedSearchId": "40233348",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "name": {
-          "semanticTextSearch": true
-        },
         "keywords": {
           "textSearch": true
+        },
+        "name": {
+          "semanticTextSearch": true
         }
       },
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
-    "links": {
-      "apiKey": "REPLACE_API_KEY",
-      "cx": "REPLACE_CX_KEY",
-      "name": "Links",
-      "siteRestricted": false,
-      "source": "GOOGLE_CSE",
-      "useSynonyms": "ALL_SYNONYMS"
-    },
     "locations": {
       "entityTypes": [
         "location"
       ],
-      "facetOrder": [],
-      "name": "Locations",
+      "name": "Standorte",
       "savedSearchId": "40238747",
       "searchableFields": {
         "builtin.entityType": {
@@ -49,10 +43,18 @@
           "nlpFilter": true,
           "textSearch": true
         },
-        "name": {
-          "textSearch": true
+        "hours": {
+          "directAnswer": true,
+          "nlpFilter": true
         },
         "keywords": {
+          "textSearch": true
+        },
+        "mainPhone": {
+          "directAnswer": true,
+          "textSearch": true
+        },
+        "name": {
           "textSearch": true
         }
       },
@@ -63,7 +65,7 @@
       "entityTypes": [
         "product"
       ],
-      "name": "Products",
+      "name": "Produkte",
       "savedSearchId": "40244146",
       "searchableFields": {
         "brand": {
@@ -142,5 +144,5 @@
     ]
   },
   "localizations": {},
-  "additionalStopWords": []
+  "additionalSearchablePlaces": []
 }
