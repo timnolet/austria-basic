@@ -4,8 +4,8 @@
   "primaryLocale": "de",
   "content": {
     "c_activeInAnswers": "YES",
-    "yext/answer": "FAQ1",
-    "yext/name": "Answer1"
+    "yext/answer": "Answer1",
+    "yext/name": "FAQ1"
   },
   "entityType": "yext/faq",
   "labels": []
