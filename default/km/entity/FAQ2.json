@@ -3,14 +3,10 @@
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "primaryLocale": "de",
   "content": {
-    "c_activeInAnswers": "YES",
-    "c_primaryCTA": {
-      "label": "Visit Hitchhikers",
-      "link": "http://hitchhikers.yext.com/login",
-      "linkType": "URL"
+    "c_activeInAnswers": "YES"
     },
-    "yext/answer": "Enter Answers2",
-    "yext/name": "Enter FAQ2"
+    "yext/answer": "Answers2",
+    "yext/name": "FAQ2"
   },
   "entityType": "yext/faq",
   "labels": []
