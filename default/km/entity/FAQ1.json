@@ -9,8 +9,8 @@
       "link": "https://www.herold.at",
       "linkType": "URL"
     },
-    "yext/answer": "Ich bin der Herold!",
-    "yext/name": "Wer ist Herold?"
+    "yext/answer": "FAQ1",
+    "yext/name": "Answer1"
   },
   "entityType": "yext/faq",
   "labels": []
