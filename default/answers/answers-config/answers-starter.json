@@ -34,7 +34,7 @@
         "fieldValues": {
           "eligibleFields": [
             "mainPhone",
-            "accessHours"
+            "hours"
           ]
         }
       },
