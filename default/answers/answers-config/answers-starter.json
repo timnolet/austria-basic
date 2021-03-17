@@ -30,28 +30,26 @@
       "source": "KNOWLEDGE_MANAGER"
     },
     "locations": {
+      "directAnswers": {
+        "fieldValues": {
+          "eligibleFields": [
+            "mainPhone",
+            "accessHours"
+          ]
+        }
+      },
       "entityTypes": [
         "location"
       ],
       "name": "Standorte",
-      "savedSearchId": "40238747",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
         },
         "builtin.location": {
-          "nlpFilter": true,
-          "textSearch": true
-        },
-        "hours": {
-          "directAnswer": true,
           "nlpFilter": true
         },
         "keywords": {
-          "textSearch": true
-        },
-        "mainPhone": {
-          "directAnswer": true,
           "textSearch": true
         },
         "name": {
@@ -152,10 +150,11 @@
         "telefon",
         "telefonnummer"
       ],
-      ["geschäftszeiten",
-       "öffnungszeiten",
-       "zeiten",
-       "offen"
+      [
+        "geschäftszeiten",
+        "öffnungszeiten",
+        "zeiten",
+        "offen"
       ]
     ]
   },
